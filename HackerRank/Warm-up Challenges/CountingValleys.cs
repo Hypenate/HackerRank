@@ -4,6 +4,9 @@ using System.Text;
 
 namespace HackerRank.Warm_up_Challenges
 {
+    /// <summary>
+    /// https://www.hackerrank.com/challenges/counting-valleys
+    /// </summary>
     public class CountingValleys
     {
         public int Result(int n, string s)
