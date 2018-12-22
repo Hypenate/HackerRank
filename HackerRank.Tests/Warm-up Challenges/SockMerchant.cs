@@ -8,7 +8,7 @@ namespace HackerRank.Tests.Warm_up_Challenges
     public class SockMerchant
     {
         [Fact]
-        public void SockMerchant_OnePair_ReturnOne()
+        public void Result_OnePair_ReturnOne()
         {
             //Arrange
             HackerRank.Warm_up_Challenges.SockMerchant sockMerchant = new HackerRank.Warm_up_Challenges.SockMerchant();
@@ -21,11 +21,11 @@ namespace HackerRank.Tests.Warm_up_Challenges
             int result = sockMerchant.Result(socks.Count, socks.ToArray());
 
             //Assert
-            Assert.True(result == 1);
+            Assert.Equal(1, result);
         }
 
         [Fact]
-        public void SockMerchant_TwoPair_ReturnTwo()
+        public void Result_TwoPair_ReturnTwo()
         {
             //Arrange
             HackerRank.Warm_up_Challenges.SockMerchant sockMerchant = new HackerRank.Warm_up_Challenges.SockMerchant();
@@ -38,12 +38,11 @@ namespace HackerRank.Tests.Warm_up_Challenges
             int result = sockMerchant.Result(socks.Count, socks.ToArray());
 
             //Assert
-            Assert.True(result == 2);
+            Assert.Equal(2, result);
         }
 
-
         [Fact]
-        public void SockMerchant_Unequal_ReturnTwoPair()
+        public void Result_Unequal_ReturnTwoPair()
         {
             //Arrange
             HackerRank.Warm_up_Challenges.SockMerchant sockMerchant = new HackerRank.Warm_up_Challenges.SockMerchant();
@@ -56,11 +55,11 @@ namespace HackerRank.Tests.Warm_up_Challenges
             int result = sockMerchant.Result(socks.Count, socks.ToArray());
 
             //Assert
-            Assert.True(result == 2);
+            Assert.Equal(2, result);
         }
 
         [Fact]
-        public void SockMerchant_TestSample0()
+        public void Result_TestSample0()
         {
             //Arrange
             HackerRank.Warm_up_Challenges.SockMerchant sockMerchant = new HackerRank.Warm_up_Challenges.SockMerchant();
@@ -73,11 +72,11 @@ namespace HackerRank.Tests.Warm_up_Challenges
             int result = sockMerchant.Result(socks.Count, socks.ToArray());
 
             //Assert
-            Assert.True(result == 3);
+            Assert.Equal(3, result);
         }
 
         [Fact]
-        public void SockMerchant_TestSample1()
+        public void Result_TestSample1()
         {
             //Arrange
             HackerRank.Warm_up_Challenges.SockMerchant sockMerchant = new HackerRank.Warm_up_Challenges.SockMerchant();
@@ -90,7 +89,7 @@ namespace HackerRank.Tests.Warm_up_Challenges
             int result = sockMerchant.Result(socks.Count, socks.ToArray());
 
             //Assert
-            Assert.True(result == 4);
+            Assert.Equal(4, result);
         }
     }
 }
