@@ -1,3 +1,4 @@
+[![Coverage Status](https://coveralls.io/repos/github/Hypenate/HackerRank/badge.svg?branch=master)](https://coveralls.io/github/Hypenate/HackerRank?branch=master)
 [![Build Status](https://travis-ci.com/Hypenate/HackerRank.svg?branch=master)](https://travis-ci.com/Hypenate/HackerRank)
 
 # About
