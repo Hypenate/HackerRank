@@ -18,9 +18,13 @@ namespace HackerRank.Warm_up_Challenges
             foreach (var hill in s.ToUpper().ToCharArray())
             {
                 if (hill == 'D')
+                {
                     hikerState = HikerState.Down;
+                }
                 else
+                {
                     hikerState = HikerState.Up;
+                }
 
                 currentLevel = UpdateLevel(hill, currentLevel);
 
@@ -36,9 +40,13 @@ namespace HackerRank.Warm_up_Challenges
             int newLevel = currentLevel;
 
             if (hill == 'D')
+            {
                 newLevel = --currentLevel;
+            }
             else
+            {
                 newLevel = ++currentLevel;
+            }
 
             return newLevel;
         }
