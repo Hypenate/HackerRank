@@ -9,7 +9,7 @@ Me having some fun at [HackerRank](https://www.hackerrank.com) while solving tho
 You can check [My Profile](https://www.hackerrank.com/ben_beckers)
 
 ## Project
-There is one Solution that contains 2 the projects:
+There is one Solution that contains 2 projects:
 - HackRanker
 - HackerRank.Tests (using xUnit)
 
