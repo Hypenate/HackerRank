@@ -12,7 +12,7 @@ namespace HackerRank.Tests.Warm_up_Challenges
         {
             //Arrange
             HackerRank.Warm_up_Challenges.SockMerchant sockMerchant = new HackerRank.Warm_up_Challenges.SockMerchant();
-            List<int> socks = new List<int>()
+            List<int> socks = new List<int>
             {
                 1, 1
             };
@@ -29,7 +29,7 @@ namespace HackerRank.Tests.Warm_up_Challenges
         {
             //Arrange
             HackerRank.Warm_up_Challenges.SockMerchant sockMerchant = new HackerRank.Warm_up_Challenges.SockMerchant();
-            List<int> socks = new List<int>()
+            List<int> socks = new List<int>
             {
                 1, 2, 1, 2
             };
@@ -46,7 +46,7 @@ namespace HackerRank.Tests.Warm_up_Challenges
         {
             //Arrange
             HackerRank.Warm_up_Challenges.SockMerchant sockMerchant = new HackerRank.Warm_up_Challenges.SockMerchant();
-            List<int> socks = new List<int>()
+            List<int> socks = new List<int>
             {
                 1, 2, 1, 2, 3
             };
@@ -63,7 +63,7 @@ namespace HackerRank.Tests.Warm_up_Challenges
         {
             //Arrange
             HackerRank.Warm_up_Challenges.SockMerchant sockMerchant = new HackerRank.Warm_up_Challenges.SockMerchant();
-            List<int> socks = new List<int>()
+            List<int> socks = new List<int>
             {
                 10, 20, 20, 10, 10, 30, 50, 10, 20
             };
@@ -80,7 +80,7 @@ namespace HackerRank.Tests.Warm_up_Challenges
         {
             //Arrange
             HackerRank.Warm_up_Challenges.SockMerchant sockMerchant = new HackerRank.Warm_up_Challenges.SockMerchant();
-            List<int> socks = new List<int>()
+            List<int> socks = new List<int>
             {
                 1, 1 ,3 ,1 ,2, 1, 3, 3, 3, 3
             };

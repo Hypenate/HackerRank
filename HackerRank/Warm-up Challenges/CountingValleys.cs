@@ -29,7 +29,9 @@ namespace HackerRank.Warm_up_Challenges
                 currentLevel = UpdateLevel(hill, currentLevel);
 
                 if (currentLevel == -1 && hikerState == HikerState.Down)
+                {
                     valleys++;
+                }
             }
 
             return valleys;
