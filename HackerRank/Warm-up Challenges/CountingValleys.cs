@@ -15,7 +15,7 @@ namespace HackerRank.Warm_up_Challenges
             int valleys = 0;
             HikerState hikerState;
 
-            foreach (var hill in s.ToUpper())
+            foreach (var hill in s.ToUpperInvariant())
             {
                 if (hill == 'D')
                 {
